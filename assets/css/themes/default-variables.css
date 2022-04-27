@@ -1,0 +1,11 @@
+:root {
+  /* Colors */
+  --color-primary: indigo;
+  --color-text: black;
+  --color-heading: black;
+  --color-white: white;
+
+  /* Typography */
+  --typo-text: 'Inter';
+  --typo-heading: 'Inter';
+}
