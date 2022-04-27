@@ -1,5 +1,5 @@
 <template>
   <div class="PageIndex">
-    JSFootball
+    <Container>JSFootball</Container>
   </div>
 </template>

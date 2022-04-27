@@ -8,4 +8,11 @@
   /* Typography */
   --typo-text: 'Inter';
   --typo-heading: 'Inter';
+
+  /* Media Queries */
+  --media-smartphone: 640px;
+  --media-tablet: 769px;
+  --media-laptop: 1024px;
+  --media-desktop: 1280px;
+  --media-landscape: 1536px;
 }
