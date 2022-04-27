@@ -1,5 +1,15 @@
 <template>
-  <div class="PageIndex">
-    <Container>JSFootball</Container>
-  </div>
+  <main>
+    <Container>
+      <h1>
+        <strong>JSFootball</strong>
+      </h1>
+    </Container>
+  </main>
 </template>
+
+<style lang="postcss" scoped>
+main {
+  text-align: center;
+}
+</style>
