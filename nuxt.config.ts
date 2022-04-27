@@ -1,5 +1,6 @@
 import { defineNuxtConfig } from 'nuxt'
 import eslintPlugin from 'vite-plugin-eslint'
+import variables from './assets/css/config/variables'
 
 export default defineNuxtConfig({
   app: {
@@ -17,6 +18,12 @@ export default defineNuxtConfig({
   css: [
     '@/assets/css/main.css'
   ],
+  postcss: {
+    plugins: {
+      'postcss-nested': {},
+      'postcss-simple-vars': { variables }
+    }
+  },
   ssr: false,
   typescript: {
     shim: false
