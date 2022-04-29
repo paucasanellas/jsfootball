@@ -4,24 +4,26 @@
   --color-text: black;
   --color-heading: black;
   --color-white: white;
+  --color-black: black;
 
   /* Typography */
   --typo-text: 'Inter';
   --typo-heading: 'Inter';
 
-  --typo-display-1: 6rem;
-  --typo-display-2: 5.5rem;
-  --typo-display-3: 5rem;
-  --typo-display-4: 4.5rem;
-  --typo-display-5: 4rem;
-  --typo-display-6: 3.5rem;
-  --typo-h1: 3rem;
-  --typo-h2: 2.5rem;
-  --typo-h3: 2rem;
-  --typo-h4: 1.5rem;
-  --typo-h5: 1.25rem;
-  --typo-h6: 1rem;
-  --typo-small: .75rem;
+  --typo-10xl: 6rem;
+  --typo-9xl: 5.5rem;
+  --typo-8xl: 5rem;
+  --typo-7xl: 4.5rem;
+  --typo-6xl: 4rem;
+  --typo-5xl: 3.5rem;
+  --typo-4xl: 3rem;
+  --typo-3xl: 2.5rem;
+  --typo-2xl: 2rem;
+  --typo-xl: 1.5rem;
+  --typo-lg: 1.25rem;
+  --typo-md: 1rem;
+  --typo-sm: 1rem;
+  --typo-xs: .75rem;
 
 
   /* Media Queries */
@@ -30,4 +32,27 @@
   --media-md: $media-md;
   --media-lg: $media-lg;
   --media-xl: $media-xl;
+
+  /* Radius */
+  --radius-xs: .5rem;
+  --radius-sm: .75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+
+  /* Gaps */
+  --gap-10xl: 4.5rem;
+  --gap-9xl: 4rem;
+  --gap-8xl: 3.75rem;
+  --gap-7xl: 3.5rem;
+  --gap-6xl: 3.25rem;
+  --gap-5xl: 3rem;
+  --gap-4xl: 2.75rem;
+  --gap-3xl: 2.5rem;
+  --gap-2xl: 2.25rem;
+  --gap-xl: 2rem;
+  --gap-lg: 1.5rem;
+  --gap-md: 1rem;
+  --gap-sm: .75rem;
+  --gap-xs: .5rem;
 }

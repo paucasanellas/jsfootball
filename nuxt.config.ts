@@ -12,6 +12,7 @@ export default defineNuxtConfig({
       ]
     }
   },
+  buildModules: ['@pinia/nuxt'],
   components: [
     { path: '~/components', pathPrefix: false }
   ],
