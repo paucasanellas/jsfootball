@@ -27,7 +27,8 @@ export default defineNuxtConfig({
   },
   ssr: false,
   typescript: {
-    shim: false
+    shim: false,
+    typeCheck: true
   },
   vite: {
     plugins: [

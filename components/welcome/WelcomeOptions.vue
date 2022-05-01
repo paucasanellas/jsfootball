@@ -7,8 +7,3 @@
 <script lang="ts" setup>
 
 </script>
-
-<style lang="postcss">
-.WelcomeOptions{
-}
-</style>
