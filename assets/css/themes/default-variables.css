@@ -10,20 +10,20 @@
   --typo-text: 'Inter';
   --typo-heading: 'Inter';
 
-  --typo-10xl: 6rem;
-  --typo-9xl: 5.5rem;
-  --typo-8xl: 5rem;
-  --typo-7xl: 4.5rem;
-  --typo-6xl: 4rem;
-  --typo-5xl: 3.5rem;
-  --typo-4xl: 3rem;
-  --typo-3xl: 2.5rem;
-  --typo-2xl: 2rem;
-  --typo-xl: 1.5rem;
-  --typo-lg: 1.25rem;
-  --typo-md: 1rem;
-  --typo-sm: 1rem;
-  --typo-xs: .75rem;
+  --text-10xl: 6rem;
+  --text-9xl: 5.5rem;
+  --text-8xl: 5rem;
+  --text-7xl: 4.5rem;
+  --text-6xl: 4rem;
+  --text-5xl: 3.5rem;
+  --text-4xl: 3rem;
+  --text-3xl: 2.5rem;
+  --text-2xl: 2rem;
+  --text-xl: 1.5rem;
+  --text-lg: 1.25rem;
+  --text-md: 1rem;
+  --text-sm: 1rem;
+  --text-xs: .75rem;
 
 
   /* Media Queries */
@@ -55,4 +55,12 @@
   --gap-md: 1rem;
   --gap-sm: .75rem;
   --gap-xs: .5rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }

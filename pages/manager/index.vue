@@ -9,8 +9,9 @@
 </template>
 
 <script lang="ts" setup>
-const db = useDatabase()
-const memory = useMemory()
-const database = db.get()
-memory.load(database)
+import { useDatabaseStore } from '@/stores/database'
+const { get } = useDatabaseStore()
+const { load } = useMemory()
+const database = get()
+load(database)
 </script>

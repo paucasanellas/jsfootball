@@ -14,6 +14,7 @@
 }
 
 img, picture, video, iframe, figure {
+  width: 100%;
   max-width: 100%;
   display: block;
   object-fit: cover;

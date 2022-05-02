@@ -1,7 +1,9 @@
+import { defineStore } from 'pinia'
 import defaultDB from '@/db/default.json'
 
-export const useDatabase = () => {
+export const useDatabaseStore = defineStore('database', () => {
   const get = () => {
+    console.info('sss')
     return JSON.parse(false || defaultDB) // TODO: Implement load database
   }
 
@@ -10,4 +12,4 @@ export const useDatabase = () => {
   }
 
   return { get, save }
-}
+})
